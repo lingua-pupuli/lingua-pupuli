@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="http://example.org/css/style.css">
+
+<title>Hello, world!</title>
+</head>
+<body><nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="http://example.org/">
+    <svg width="32px" height="32px" viewBox="0 0 100 154" version="1.1" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g id="dep" transform="translate(4.000000, 6.000000)" fill="#EFA732">
+            <g id="Page-1">
+              <path
+                d="M15.191,138.231 L30.382,138.231 L30.382,123.039 L15.191,123.039 L15.191,138.231 Z M15.192,31.174 L30.382,31.174 L30.382,15.984 L15.192,15.984 L15.192,31.174 Z M99.124,99.894 L99.124,54.32 L64.27,54.32 L64.281,54.309 L45.574,35.602 L45.574,0.792 L0,0.792 L0,46.366 L34.854,46.366 L53.539,65.051 L53.55,65.04 L53.55,89.174 L53.528,89.152 L34.832,107.848 L0,107.848 L0,153.422 L45.574,153.422 L45.574,118.59 L64.27,99.894 L99.124,99.894 L99.124,99.894 Z"
+                id="Shape" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg>
+    Puppet Extension
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      
+      
+      
+      <li class="nav-item">
+        <a class="nav-link active"
+          href="/feature/" title="Features"> Features</a>
+      </li>
+      
+      
+    </ul>
+
+    <ul class="navbar-nav">
+      <a class="nav-item nav-link" href="//github.com/lingua-pupuli/puppet-vscode" target="_blank" rel="noopener"><i
+          class="fab fa-github mr-3 text-warning" aria-hidden="true"></i></a>
+      <a class="nav-item nav-link" href="//twitter.com/puppetize" target="_blank" rel="noopener"><i
+          class="fab fa-twitter mr-3 text-warning" aria-hidden="true"></i></a>
+    </ul>
+
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <div class="row">
+    <h1 class="display-3" id="title">Code Navigation</h1>
+  </div>
+  <div class="row">
+    <section id="main" class="col-10">
+      <div>
+        <article id="content">
+          
+
+<h1 id="outline-view">Outline View</h1>
+
+<p>The new <code>Outline View</code> shows the symbol tree of the currently selected Puppet manifest.</p>
+
+<p>Supported symbols:</p>
+
+<ul>
+<li>Class</li>
+<li>Defined Type</li>
+<li>Attribute</li>
+<li>Variable</li>
+</ul>
+
+<p>More symbols are planned to be added.</p>
+
+<blockquote>
+<p>Note: Puppet 4 is not supported for symbols</p>
+</blockquote>
+
+<p><img src="https://raw.githubusercontent.com/lingua-pupuli/puppet-vscode/master/docs/assets/outline_view.gif" alt="outline_view" /></p>
+
+<h1 id="breadcrumbs">Breadcrumbs</h1>
+
+<p>When the <code>breadcrumbs.enabled</code> setting is set to true, both the file path and the symbol tree hierarchy are shown in the Breadcrumb view.</p>
+
+<blockquote>
+<p>Note: Puppet 4 is not supported for symbols</p>
+</blockquote>
+
+<p><img src="https://raw.githubusercontent.com/lingua-pupuli/puppet-vscode/master/docs/assets/breadcrumbs.gif" alt="breadcrumbs" /></p>
+
+<h1 id="go-to-symbol">Go to Symbol</h1>
+
+<p>Opening the <code>Command Palette</code> and typing the <code>@</code> symbol initiates the <code>Go to Symbol</code> view which allows you to navigate around inside a Puppet manifest more quickly.</p>
+
+<blockquote>
+<p>Note: Puppet 4 is not supported</p>
+</blockquote>
+
+<p><img src="https://raw.githubusercontent.com/lingua-pupuli/puppet-vscode/master/docs/assets/go_to_symbol.gif" alt="go_to_symbol" /></p>
+
+<h1 id="open-symbol-by-name">Open Symbol by Name</h1>
+
+<p>Pressing <code>Ctrl+T</code> (or ⌘T on OSX) will list all <a href="https://puppet.com/docs/puppet/latest/custom_types.html">Puppet Custom Types</a>, <a href="https://puppet.com/docs/puppet/latest/lang_write_functions_in_puppet.html">Functions</a>, <a href="https://puppet.com/docs/puppet/latest/lang_classes.html">Classes</a> and <a href="https://puppet.com/docs/puppet/latest/lang_defined_types.html">Defined Types</a> in the workspace. You can then <a href="https://code.visualstudio.com/docs/editor/editingevolved#_open-symbol-by-name">navigate to the symbol</a> by pressing <code>Enter</code>.</p>
+
+<blockquote>
+<p>Note: Puppet 4 has limited support</p>
+</blockquote>
+
+        </article>
+      </div>
+    </section>
+    <aside id="meta" class="col-2">
+      <nav id="TableOfContents">
+<ul>
+<li><a href="#outline-view">Outline View</a></li>
+<li><a href="#breadcrumbs">Breadcrumbs</a></li>
+<li><a href="#go-to-symbol">Go to Symbol</a></li>
+<li><a href="#open-symbol-by-name">Open Symbol by Name</a></li>
+</ul>
+</nav>
+    </aside>
+  </div>
+</div>
+<footer class="">
+
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
