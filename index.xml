@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Puppet VSCode Extension</title>
-    <link>http://example.org/</link>
+    <link>https://lingua-pupuli.github.io/</link>
     <description>Recent content on Puppet VSCode Extension</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 06 Jun 2019 13:56:42 -0400</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lingua-pupuli.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Code Navigation</title>
-      <link>http://example.org/feature/codenavigation/</link>
+      <link>https://lingua-pupuli.github.io/feature/codenavigation/</link>
       <pubDate>Thu, 06 Jun 2019 13:56:42 -0400</pubDate>
       
-      <guid>http://example.org/feature/codenavigation/</guid>
+      <guid>https://lingua-pupuli.github.io/feature/codenavigation/</guid>
       <description>Outline View The new Outline View shows the symbol tree of the currently selected Puppet manifest.
 Supported symbols:
  Class Defined Type Attribute Variable  More symbols are planned to be added.
