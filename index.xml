@@ -25,5 +25,50 @@ Supported symbols:
  Note: Puppet 4 is not supported for symbols</description>
     </item>
     
+    <item>
+      <title>Intellisense</title>
+      <link>https://lingua-pupuli.github.io/feature/intellisense/</link>
+      <pubDate>Thu, 06 Jun 2019 13:56:42 -0400</pubDate>
+      
+      <guid>https://lingua-pupuli.github.io/feature/intellisense/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linting</title>
+      <link>https://lingua-pupuli.github.io/feature/linting/</link>
+      <pubDate>Thu, 06 Jun 2019 13:56:42 -0400</pubDate>
+      
+      <guid>https://lingua-pupuli.github.io/feature/linting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Puppet Commands</title>
+      <link>https://lingua-pupuli.github.io/feature/puppet-commands/</link>
+      <pubDate>Thu, 06 Jun 2019 13:56:42 -0400</pubDate>
+      
+      <guid>https://lingua-pupuli.github.io/feature/puppet-commands/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Puppet Development Kit</title>
+      <link>https://lingua-pupuli.github.io/feature/pdk/</link>
+      <pubDate>Thu, 06 Jun 2019 13:56:42 -0400</pubDate>
+      
+      <guid>https://lingua-pupuli.github.io/feature/pdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Remote Development</title>
+      <link>https://lingua-pupuli.github.io/feature/remote-development/</link>
+      <pubDate>Thu, 06 Jun 2019 13:56:42 -0400</pubDate>
+      
+      <guid>https://lingua-pupuli.github.io/feature/remote-development/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
