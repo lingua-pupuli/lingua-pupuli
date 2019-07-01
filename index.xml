@@ -40,7 +40,8 @@ Supported symbols:
       <pubDate>Thu, 06 Jun 2019 13:56:42 -0400</pubDate>
       
       <guid>https://lingua-pupuli.github.io/feature/intellisense/</guid>
-      <description></description>
+      <description>Intellisense Live Workspace Intellisense If you are editing a module, or a Control Repository, you will now get live intellisense of the Puppet Custom Types, Functions, Classes and Defined Types. For example if you are editing the puppetlabs-apache module you will be able to get auto-complete for resources like apache::vhost or apache::mod::php.
+ Note: Workspace Intellisense is only updated when you save a file, instead of features like linting which update as you type</description>
     </item>
     
     <item>
